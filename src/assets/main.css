@@ -65,7 +65,7 @@ li {
 
 	@keyframes start {
 		0% {
-			translate: -50rem;
+			translate: 50rem;
 			scale: 0.8;
 			rotate: 180deg;
 		}
