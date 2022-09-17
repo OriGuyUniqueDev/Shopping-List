@@ -48,3 +48,36 @@ li {
 		translate: 0rem;
 	}
 }
+
+@media (max-width: 768px) { 
+	body {
+		overflow: hidden;
+		display: grid;
+		place-content: center;
+		height: 100vh;
+		background-color: #8bc6ec;
+		background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+	
+		animation: start 3s forwards;
+	}
+	
+
+
+	@keyframes start {
+		0% {
+			translate: -50rem;
+			scale: 0.8;
+			rotate: 180deg;
+		}
+	
+		80% {
+			translate: 2.5rem;
+		}
+		95% {
+			translate: -2.5rem;
+		}
+		100% {
+			translate: 0rem;
+		}
+	}
+ }
