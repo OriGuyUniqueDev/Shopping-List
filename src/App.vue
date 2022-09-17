@@ -52,6 +52,7 @@
 					class="text-sm w-10 bg-indigo-200 border-indigo-300 placeholder:text-slate-500 rounded-lg mb-2 focus:outline-none focus:ring focus:ring-violet-600 h-6 pr-2"
 					type="number"
 					name="quantity"
+					pattern="\d*"
 					autocomplete="off"
 					placeholder="2"
 				/>
@@ -75,10 +76,13 @@
 				>
 				<button
 					type="submit"
-					class="flex gap-3 max-w-max text-sm pt-2 px-4 bg-indigo-400 text-white h-10 rounded-lg  focus:outline-none focus:ring focus:ring-violet-600 shadow-md active:shadow-sm active:translate-y-[0.1rem]"
+					class="flex gap-3 max-w-max text-sm pt-2 px-4 bg-indigo-400 text-white h-10 rounded-lg focus:outline-none focus:ring focus:ring-violet-600 shadow-md active:shadow-sm active:translate-y-[0.1rem]"
 					@keyup.enter="addItemToArray()"
 				>
-          <img src="../public/134224_add_plus_new_icon.svg" alt="">
+					<img
+						src="../public/134224_add_plus_new_icon.svg"
+						alt=""
+					/>
 					<span>הוסף לרשימה</span>
 				</button>
 			</form>
@@ -93,14 +97,14 @@
 					<span :class="{ buyDone: item.isPurchase, highPriority: item.priority.isPriority }">{{ item.quantity }} {{ item.item }}</span> |
 					<button
 						@click.prevent="deleteItem(item.id)"
-						class="text-sm font-bold bg-red-400 text-w px-2 py-1 rounded-lg"
+						class="text-sm bg-red-400 text-w font-medium px-2 py-1 rounded-lg"
 						type="button"
 					>
 						מחק
 					</button>
 					<button
 						@click.prevent="togglePurchase(item)"
-						class="text-sm bg-lime-400 text-w px-2 font-bold py-1 rounded-lg"
+						class="text-sm bg-lime-400 text-w px-2 font-medium py-1 rounded-lg"
 						type="button"
 					>
 						נקנה
