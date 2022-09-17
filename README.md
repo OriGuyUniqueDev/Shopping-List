@@ -9,41 +9,32 @@ an online shopping list with the ability to add items to list with quantity and 
 
 ## Screenshot
 
-![App Screenshot](https://github.com/OriGuyUniqueDev/drumKit_js/blob/main/assets/images/screenshot.png?raw=true)
+![App Screenshot](https://github.com/OriGuyUniqueDev/Shopping-List/blob/main/public/Screenshot%202022-09-17%20180911.png?raw=true)
 
 
 ## Deployment
 
 To enjoy this project please visit the site:
 
-https://drumkit-origuy-js.netlify.app/
+https://ori-guy-shopping-list.netlify.app/
 
 ## Features
 - Mobile responsive
 - Touch and Click events 
-- Play sounds
-- Build layout with grid
+- Add and Delete items
 
 
 ## Tech Stack
 
-**Client:** HTML, SCSS, JavaScript
+**Client:** Vue3, HTML, JavaScript, Tailwind CSS
 
 **Server:** Netlify
-
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Left Background Color | ![#43c6ac](https://via.placeholder.com/10/43c6ac?text=+) #43c6ac |
-| Right Background Color  | ![#191654](https://via.placeholder.com/10/191654?text=+) #191654 |
-| Buuton Background Color | ![#5da2c673](https://via.placeholder.com/10/5da2c673?text=+) #5da2c673 |
-
 
 
 ## Acknowledgements
 
- - [howlerjs](https://howlerjs.com/)
+ - [Tailwind](https://tailwindcss.com/docs)
+ - [Vue](https://vuejs.org/guide/introduction.html)
 
 
 
