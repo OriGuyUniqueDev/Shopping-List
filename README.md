@@ -31,6 +31,33 @@ https://ori-guy-shopping-list.netlify.app/
 **Server:** Netlify
 
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/OriGuyUniqueDev/Shopping-List.git
+```
+
+Go to the project directory
+
+```bash
+  cd Shopping-List
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
 ## Acknowledgements
 
  - [Tailwind](https://tailwindcss.com/docs)
@@ -45,7 +72,7 @@ If you have any feedback, please reach out to at origuydev@gmail.com
 
 ## Authors
 
-- [@OriGuy](https://github.com/OriGuyUniqueDev?tab=projects&type=classic)
+- [@OriGuyUniqueDev](https://github.com/OriGuyUniqueDev)
 
 
 
