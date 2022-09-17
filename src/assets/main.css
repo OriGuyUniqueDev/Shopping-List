@@ -66,19 +66,12 @@ li {
 
 	@keyframes start {
 		0% {
-			translate: -50rem;
+			translate: 0 -50rem;
 			scale: 0.8;
 			rotate: 180deg;
 		}
-	
-		80% {
-			translate: 2.5rem;
-		}
-		95% {
-			translate: -2.5rem;
-		}
 		100% {
-			translate: 0rem;
+			translate: 0 0rem;
 		}
 	}
  }
