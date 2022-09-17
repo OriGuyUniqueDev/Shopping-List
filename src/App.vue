@@ -29,7 +29,7 @@
 
 <template>
 	<div class="md:flex md:flex-row flex-col gap-8">
-		<div class="container max-h-max font-sans w-[21rem] rounded-xl bg-sky-50 flex flex-col justify-start shadow-xl py-10 px-12">
+		<div class="container h-3/4 font-sans w-[21rem] rounded-xl bg-sky-50 flex flex-col justify-start shadow-xl py-10 px-12">
 			<h1 class="text-[1.9rem] mb-7 font-bold max-w-max">
 				{{ header }}
 			</h1>
