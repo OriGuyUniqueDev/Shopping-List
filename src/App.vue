@@ -77,7 +77,7 @@
 				>
 				<button
 					type="submit"
-					class="flex gap-3 max-w-max text-sm pt-2 px-4 bg-indigo-400 text-white h-10 rounded-lg focus:outline-none focus:ring focus:ring-violet-600 shadow-md active:shadow-sm active:translate-y-[0.1rem]"
+					class="flex gap-3 max-w-max text-sm pt-2.5 px-4 bg-indigo-400 text-white h-10 rounded-lg focus:outline-none focus:ring focus:ring-violet-600 shadow-md active:shadow-sm active:translate-y-[0.1rem]"
 					@keyup.enter="addItemToArray()"
 				>
 					<img
