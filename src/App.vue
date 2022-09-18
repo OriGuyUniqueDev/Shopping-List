@@ -51,6 +51,7 @@
 					v-model="quantity"
 					class="text-sm w-10 bg-indigo-200 border-indigo-300 placeholder:text-slate-500 rounded-lg mb-2 focus:outline-none focus:ring focus:ring-violet-600 h-6 pr-2"
 					type="number"
+					min="1"
 					name="quantity"
 					pattern="\d*"
 					autocomplete="off"
